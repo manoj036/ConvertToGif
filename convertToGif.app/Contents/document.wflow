@@ -64,7 +64,7 @@
   if test -f "$finalName"; then
     echo "osascript -e 'display dialog \"A gif file with same name already exists. Please remove it before trying to create a new one.\" buttons {\"OK\"} default button \"OK\" with icon caution'"
   else 
-    echo "ffmpeg -i \"$file\" \"$finalName\""
+    echo "ffmpeg -i \"$file\" \"$finalName\" -hide_banner"
   fi
 else
   echo "osascript -e 'display dialog \"Drop a file into the app to convert it into gif. The converted gif will be located in the same folder as the parent file.\" buttons {\"OK\"} default button \"OK\" with icon caution'" 
@@ -363,7 +363,7 @@ eval $file</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>3B3C4BE7-15FB-432C-8F16-04991C3064C9</key>
+		<key>CA5572BF-0605-4B16-B4D7-8B577B186E66</key>
 		<dict>
 			<key>from</key>
 			<string>E1451F24-8B93-43F8-8CEB-5021C3FCCA38 - E1451F24-8B93-43F8-8CEB-5021C3FCCA38</string>
