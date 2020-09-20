@@ -8,4 +8,4 @@ Download `ffmpeg` if it is not installed already.
 - Download this repository.
 - Drop files into the application and voila.
 
-![Alt Text](https://github.com/manoj036/ConvertToGif/blob/master/tutorial.gif)
+<img src="https://github.com/manoj036/ConvertToGif/blob/master/tutorial.gif" width="300" height="500" />
