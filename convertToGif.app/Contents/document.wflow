@@ -64,7 +64,7 @@
   if test -f "$finalName"; then
     echo "osascript -e 'display dialog \"A gif file with same name already exists. Please remove it before trying to create a new one.\" buttons {\"OK\"} default button \"OK\" with icon caution'"
   else 
-    echo "ffmpeg -i $file $finalName"
+    echo "ffmpeg -i \"$file\" \"$finalName\""
   fi
 else
   echo "osascript -e 'display dialog \"Drop a file into the app to convert it into gif. The converted gif will be located in the same folder as the parent file.\" buttons {\"OK\"} default button \"OK\" with icon caution'" 
@@ -182,7 +182,7 @@ fi
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>445.000000:432.000000</string>
+				<string>332.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -350,12 +350,10 @@ eval $file</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>445.000000:614.000000</string>
+				<string>332.000000:434.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -365,7 +363,7 @@ eval $file</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0932F2E4-0C23-4C67-9B4B-312B51DC4159</key>
+		<key>3B3C4BE7-15FB-432C-8F16-04991C3064C9</key>
 		<dict>
 			<key>from</key>
 			<string>E1451F24-8B93-43F8-8CEB-5021C3FCCA38 - E1451F24-8B93-43F8-8CEB-5021C3FCCA38</string>
