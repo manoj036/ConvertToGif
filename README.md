@@ -1,8 +1,6 @@
 # ConvertToGif
 It is a automator application which converts files dropped into it to Gifs.
 
-# Prerequisites:
-
 # Installation:
 Download `ffmpeg` if it is not installed already.
 - Can be done with
