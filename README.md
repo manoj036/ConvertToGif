@@ -5,8 +5,7 @@ It is an automator application which converts files dropped into it to Gifs.
 
 # Installation:
 Download [`ffmpeg`](https://github.com/FFmpeg/FFmpeg) if it is not installed already.
-- Can be done with
-> brew install ffmpeg
+- Can be done using homebrew with command `brew install ffmpeg`.
 - Download this repository.
 - Drop files into the application and voila.
 
